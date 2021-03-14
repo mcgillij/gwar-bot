@@ -23,11 +23,6 @@ GWAR_FACTS = [
 ]
 
 bot = commands.Bot(
-    # irc_token=os.environ['TMI_TOKEN'],
-    # client_id=os.environ['CLIENT_ID'],
-    # nick=os.environ['BOT_NICK'],
-    # prefix=os.environ['BOT_PREFIX'],
-    # initial_channels=[os.environ['CHANNEL']]
     irc_token=IRC_TOKEN,
     client_id=CLIENT_ID,
     nick=NICK,
