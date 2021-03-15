@@ -66,6 +66,16 @@ async def totaldeaths(ctx):
     await ctx.send(f'Death {results.fetchall()}')
 
 
+@bot.command(name='squidler')
+async def squidler(ctx):
+    await ctx.send('https://clips.twitch.tv/ProtectivePatientTardigradeOSsloth-t6BFoebSlSYhOfzV')
+
+
+@bot.command(name='help')
+async def help(ctx):
+    await ctx.send('Commands available: $hi, $gwarfacts, $death <reason>, $totaldeaths, $squidler, $help')
+
+
 # Need actual streamers permissions to access stream statistics
 # @bot.command(name='info')
 # async def info(ctx):
