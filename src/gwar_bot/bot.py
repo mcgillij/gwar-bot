@@ -71,9 +71,14 @@ async def squidler(ctx):
     await ctx.send('https://clips.twitch.tv/ProtectivePatientTardigradeOSsloth-t6BFoebSlSYhOfzV')
 
 
+@bot.command(name='love')
+async def love(ctx):
+    await ctx.send("/me doesn't know how to love!")
+
+
 @bot.command(name='help')
 async def help(ctx):
-    await ctx.send('Commands available: $hi, $gwarfacts, $death <reason>, $totaldeaths, $squidler, $help')
+    await ctx.send('Commands available: $hi, $gwarfacts, $death <reason>, $totaldeaths, $squidler, $love, $help')
 
 
 # Need actual streamers permissions to access stream statistics
